@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: linear-gradient(120deg, rgba(109, 112, 108, 0.616) 0%, rgba(58, 58, 58, 0.7) 100%),url("img/fondo2.jpg") no-repeat center center fixed;
+    background-size: cover;       
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background: linear-gradient(120deg, rgba(27, 107, 0, 0.616) 0%, rgba(118, 255, 77, 0.7) 100%), no-repeat center center fixed;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.container {
+    height: 100%;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.page {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.columna {
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 3px grey;
+    text-align: center;
+}
+
+.beneficios {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1b5e00;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: #1b5e00;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.cta-button:hover {
+    color: rgb(0, 0, 0);
+    transition: all .3s;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+h1{
+    margin: 5px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.685);
+    text-align: center;
+    background-color: #333;
+}
+
+form, select{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+p{
+    padding: 5px;
+}
+
+h2{
+    padding: 5px;
+}
+
+h3{
+    padding: 5px;
+}
+
+
+
